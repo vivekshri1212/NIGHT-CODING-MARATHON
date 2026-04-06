@@ -1,6 +1,32 @@
 # Night Coding Marathon
 
-Full-stack interview prep app with React (frontend), Express + MongoDB (backend), and Gemini-powered question generation.
+Full-stack interview prep app with React (frontend), Express + MongoDB (backend), and AI-assisted question generation.
+
+## Submission Summary
+
+- Project Name: `Night Coding Marathon`
+- GitHub Repo: `https://github.com/vivekshri1212/NIGHT-CODING-MARATHON`
+- Tech Stack: `React`, `Vite`, `Express`, `MongoDB`, `Mongoose`, `JWT`
+- Main Features:
+  - User signup and login
+  - Protected dashboard
+  - Interview session creation
+  - Preset tracks: `MERN`, `DSA`, `Java`, `Python`, `AI`
+  - Question generation and session-based practice
+  - MongoDB-backed data storage
+
+## Quick Submission Note
+
+You can copy-paste this while submitting:
+
+```text
+Project Title: Night Coding Marathon
+
+Night Coding Marathon is a full-stack interview preparation web application built using React, Express, and MongoDB. It allows users to sign up, log in, create interview preparation sessions, choose preset tracks such as MERN, DSA, Java, Python, and AI, and practice generated interview questions inside a protected dashboard.
+
+GitHub Repository:
+https://github.com/vivekshri1212/NIGHT-CODING-MARATHON
+```
 
 ## Project Structure
 
@@ -62,12 +88,19 @@ Frontend `frontend/.env`
 VITE_API_BASE_URL=http://localhost:9000
 ```
 
+You can also use the included example files:
+
+```bash
+backend/.env.example
+frontend/.env.example
+```
+
 ### 3) Run
 
 Backend:
 ```bash
 cd backend
-npm run dev
+node index.js
 ```
 
 Frontend:
@@ -75,6 +108,21 @@ Frontend:
 cd frontend
 npm run dev
 ```
+
+Open:
+
+- Frontend: `http://localhost:5173`
+- Backend: `http://localhost:9000`
+
+## Submission Checklist
+
+- Push latest code to GitHub
+- Add `.env` locally before running
+- Start backend and frontend
+- Test signup/login
+- Create one sample session
+- Generate questions once for demo
+- Submit GitHub repo link
 
 ## API Surface
 
