@@ -1,16 +1,29 @@
-# React + Vite
+# Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+React + Vite client for Night Coding Marathon.
 
-Currently, two official plugins are available:
+## Commands
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+```bash
+npm install
+npm run dev
+npm run build
+```
 
-## React Compiler
+## Environment
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Create `.env` in this folder:
 
-## Expanding the ESLint configuration
+```env
+VITE_API_BASE_URL=http://localhost:9000
+```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Key Files
+
+- `src/App.jsx`: route declarations
+- `src/pages/`: route-level screens
+- `src/components/`: reusable UI components
+- `src/utils/apiPaths.js`: frontend endpoint constants
+- `src/utils/axiosInstance.js`: axios client + token interceptor
+
+For full project architecture and backend setup, see root `README.md`.
