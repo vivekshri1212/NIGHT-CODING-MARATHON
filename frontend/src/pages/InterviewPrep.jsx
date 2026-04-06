@@ -69,13 +69,13 @@ const InterviewPrep = () => {
   }, [fetchQuestions]);
 
   return (
-    <div className="w-full min-h-screen bg-slate-50">
+    <div className="min-h-screen bg-[radial-gradient(circle_at_top_right,_rgba(251,191,36,0.16),_transparent_24%),linear-gradient(180deg,_#fffaf3_0%,_#fffdf9_48%,_#fff6ec_100%)]">
       <Toaster
         position="top-right"
         toastOptions={{ className: "!text-sm !font-medium" }}
       />
 
-      <div className="max-w-4xl mx-auto px-6 py-8">
+      <div className="mx-auto max-w-5xl px-6 py-8">
         {/* ── Header ── */}
         <div className="flex items-center justify-between mb-8">
           <div>
@@ -117,7 +117,7 @@ const InterviewPrep = () => {
           <EmptyState onGenerate={generateQuestions} generating={generating} />
         ) : (
           <AnimatePresence>
-            <div className="space-y-4">
+            <div className="space-y-5">
               {questions.map((q, i) => (
                 <MotionDiv
                   key={q._id}

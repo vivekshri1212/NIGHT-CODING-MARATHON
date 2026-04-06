@@ -1,7 +1,7 @@
 import { Route, Routes } from "react-router-dom";
 
 import ProtectedRoute from "./components/ProtectedRoute";
-import Dashboard from "./pages/Dashboard";
+import DashboardPreset from "./pages/DashboardPreset";
 import InterviewPrep from "./pages/InterviewPrep";
 import LandingPage from "./pages/LandingPage";
 import Login from "./pages/Login";
@@ -17,7 +17,7 @@ const App = () => {
         path="/dashboard"
         element={
           <ProtectedRoute>
-            <Dashboard />
+            <DashboardPreset />
           </ProtectedRoute>
         }
       />
