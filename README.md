@@ -28,6 +28,20 @@ GitHub Repository:
 https://github.com/vivekshri1212/NIGHT-CODING-MARATHON
 ```
 
+## Project Screenshots
+
+### Landing Page
+
+![Landing Page](docs/screenshots/landing-page.png)
+
+### Dashboard With Preset Tracks
+
+![Dashboard Presets](docs/screenshots/dashboard-presets.png)
+
+### Interview Questions Screen
+
+![Interview Questions](docs/screenshots/interview-questions.png)
+
 ## Project Structure
 
 - `frontend/` React + Vite client
